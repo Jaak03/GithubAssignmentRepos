@@ -1,0 +1,9 @@
+C:\Users\SALMAN\Desktop\salman\salman\bin\Debug\salman.exe.config
+C:\Users\SALMAN\Desktop\salman\salman\obj\Debug\salman.csprojResolveAssemblyReference.cache
+C:\Users\SALMAN\Desktop\salman\salman\obj\Debug\salman.Form1.resources
+C:\Users\SALMAN\Desktop\salman\salman\obj\Debug\salman.Properties.Resources.resources
+C:\Users\SALMAN\Desktop\salman\salman\obj\Debug\salman.csproj.GenerateResource.Cache
+C:\Users\SALMAN\Desktop\salman\salman\bin\Debug\salman.exe
+C:\Users\SALMAN\Desktop\salman\salman\bin\Debug\salman.pdb
+C:\Users\SALMAN\Desktop\salman\salman\obj\Debug\salman.exe
+C:\Users\SALMAN\Desktop\salman\salman\obj\Debug\salman.pdb
