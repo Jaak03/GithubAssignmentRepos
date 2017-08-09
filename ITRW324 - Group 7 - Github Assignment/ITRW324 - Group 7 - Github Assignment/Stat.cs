@@ -9,7 +9,7 @@ namespace ITRW324___Group_7___Github_Assignment
 {
     class Stat
     {
-        public double calcMean(int number,RichTextBox rtbButton)
+        public double calcMean(int number, RichTextBox rtbButton)
         {
             int num = number;
             Random random = new Random();
@@ -24,12 +24,12 @@ namespace ITRW324___Group_7___Github_Assignment
                 randomNum = random.Next(0, 100);
                 numbers[k] = randomNum;
                 sum += randomNum;
-                rtbButton.Text = rtbButton.Text+randomNum + "\n";
+                rtbButton.Text = rtbButton.Text + randomNum + "\n";
                 array += Convert.ToString(randomNum) + " ";
             }
 
-            return( sum / num);
-           // MessageBox.Show("Numbers: " + array + "\n" + "Mean: " + mean);
+            return (sum / num);
+            // MessageBox.Show("Numbers: " + array + "\n" + "Mean: " + mean);
 
         }//calcMean end
 
@@ -61,11 +61,11 @@ namespace ITRW324___Group_7___Github_Assignment
 
             if (number < 5 || number > 20)
                 isValid = false;
-            
+
             return isValid;
         }//test end
 
-        public int Max(int [] arrData)
+        public int Max(int[] arrData)
         {
             return arrData.Max();
         }
@@ -80,7 +80,7 @@ namespace ITRW324___Group_7___Github_Assignment
             {
                 numbers[i] = random.Next(0, 100);
                 sum = sum + numbers[i];
-                label2.Text = label2.Text  + numbers[i] + "\n";
+                label2.Text = label2.Text + numbers[i] + "\n";
             }
 
 
@@ -104,25 +104,25 @@ namespace ITRW324___Group_7___Github_Assignment
 
             double result = sumSq / (x - 1);
 
-            return( Math.Sqrt(result));
+            return (Math.Sqrt(result));
         }
-        public double minFunction(int num , RichTextBox rtbDisplay)
+        public double minFunction(int num, RichTextBox rtbDisplay)
         {
 
             double[] minValues = new double[num];
             Random random = new Random();
             double minimum = 0;
-            for(int i =0;i<minValues.Length;i++)
+            for (int i = 0; i < minValues.Length; i++)
             {
                 minValues[i] = random.Next(0, 100);
                 rtbDisplay.Text = rtbDisplay.Text + minValues[i] + "\n";
-                
+
             }
             minimum = minValues[0];
             for (int i = 0; i < minValues.Length; i++)
             {
                 int j = i + 1;
-                if(minimum>minValues[i])
+                if (minimum > minValues[i])
                 {
                     minimum = minValues[i];
                 }
@@ -130,5 +130,37 @@ namespace ITRW324___Group_7___Github_Assignment
 
             return minimum;
         }
+
+        public double calcGCD(int z, RichTextBox box)
+        {
+            double[] gcdValues = new double[z];
+            Random random = new Random();
+            for (int i = 0; i < gcdValues.Length; i++)
+            {
+                gcdValues[i] = random.Next(0, 100);
+                box.Text = box.Text + gcdValues[i] + "\n";
+
+            }
+            double div = gcdValues[0];
+            for (int i = 0; i < gcdValues.Length; i++)
+            {
+                int j = i + 1;
+                if (div > gcdValues[i])
+                {
+                    div = gcdValues[i];
+                }
+
+            }
+            bool valueDiv = false;
+            for (int i = 0; i < gcdValues.Length; i++)
+            {
+                if ((gcdValues[i] % div) != 0)
+                {
+                    div--;
+                }
+            }
+            return div;
         }
+    }
 }
+

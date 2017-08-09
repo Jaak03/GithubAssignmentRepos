@@ -172,7 +172,11 @@ namespace ITRW324___Group_7___Github_Assignment
                     rtbDisplay.Clear();
                     if (method.testNumber(number))
                     {
-                       
+
+                        rtbDisplay.AppendText("Array of numbers generated(sorted): \n");
+                        double result = method.calcGCD(number, rtbDisplay);
+                        rtbDisplay.AppendText("GCD: " + result.ToString());
+
                     }
                     else
                         MessageBox.Show(null, "Please enter a value between 5 and 20.", "Incorrect input.", MessageBoxButtons.OK, MessageBoxIcon.Error);
