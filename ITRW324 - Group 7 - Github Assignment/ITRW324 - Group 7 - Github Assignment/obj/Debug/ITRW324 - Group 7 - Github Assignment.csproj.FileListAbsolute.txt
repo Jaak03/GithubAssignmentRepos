@@ -6,3 +6,12 @@ C:\Users\Christo-PC\Desktop\ITRW324 - Group 7 - Github Assignment\ITRW324 - Grou
 C:\Users\Christo-PC\Desktop\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\bin\Debug\ITRW324 - Group 7 - Github Assignment.pdb
 C:\Users\Christo-PC\Desktop\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\obj\Debug\ITRW324 - Group 7 - Github Assignment.exe
 C:\Users\Christo-PC\Desktop\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\obj\Debug\ITRW324 - Group 7 - Github Assignment.pdb
+C:\Users\SALMAN\Desktop\GithubAssignmentRepos\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\bin\Debug\ITRW324 - Group 7 - Github Assignment.exe.config
+C:\Users\SALMAN\Desktop\GithubAssignmentRepos\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\obj\Debug\ITRW324 - Group 7 - Github Assignment.exe
+C:\Users\SALMAN\Desktop\GithubAssignmentRepos\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\obj\Debug\ITRW324 - Group 7 - Github Assignment.pdb
+C:\Users\SALMAN\Desktop\GithubAssignmentRepos\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\bin\Debug\ITRW324 - Group 7 - Github Assignment.exe
+C:\Users\SALMAN\Desktop\GithubAssignmentRepos\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\bin\Debug\ITRW324 - Group 7 - Github Assignment.pdb
+C:\Users\SALMAN\Desktop\GithubAssignmentRepos\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\obj\Debug\ITRW324 - Group 7 - Github Assignment.csprojResolveAssemblyReference.cache
+C:\Users\SALMAN\Desktop\GithubAssignmentRepos\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\obj\Debug\ITRW324___Group_7___Github_Assignment.Form1.resources
+C:\Users\SALMAN\Desktop\GithubAssignmentRepos\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\obj\Debug\ITRW324___Group_7___Github_Assignment.Properties.Resources.resources
+C:\Users\SALMAN\Desktop\GithubAssignmentRepos\ITRW324 - Group 7 - Github Assignment\ITRW324 - Group 7 - Github Assignment\obj\Debug\ITRW324 - Group 7 - Github Assignment.csproj.GenerateResource.Cache

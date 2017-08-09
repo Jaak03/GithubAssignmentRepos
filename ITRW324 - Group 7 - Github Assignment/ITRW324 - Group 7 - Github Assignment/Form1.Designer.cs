@@ -40,9 +40,10 @@
             // 
             // btnChristo
             // 
-            this.btnChristo.Location = new System.Drawing.Point(20, 42);
+            this.btnChristo.Location = new System.Drawing.Point(27, 52);
+            this.btnChristo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnChristo.Name = "btnChristo";
-            this.btnChristo.Size = new System.Drawing.Size(106, 23);
+            this.btnChristo.Size = new System.Drawing.Size(141, 28);
             this.btnChristo.TabIndex = 0;
             this.btnChristo.Text = "&Christo - Median";
             this.btnChristo.UseVisualStyleBackColor = true;
@@ -50,36 +51,43 @@
             // 
             // btnLeandri
             // 
-            this.btnLeandri.Location = new System.Drawing.Point(134, 42);
+            this.btnLeandri.Location = new System.Drawing.Point(179, 52);
+            this.btnLeandri.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLeandri.Name = "btnLeandri";
-            this.btnLeandri.Size = new System.Drawing.Size(110, 23);
+            this.btnLeandri.Size = new System.Drawing.Size(147, 28);
             this.btnLeandri.TabIndex = 1;
             this.btnLeandri.Text = "&Leandri - Mean";
             this.btnLeandri.UseVisualStyleBackColor = true;
+            this.btnLeandri.Click += new System.EventHandler(this.btnLeandri_Click);
             // 
             // btnRuben
             // 
-            this.btnRuben.Location = new System.Drawing.Point(134, 81);
+            this.btnRuben.Location = new System.Drawing.Point(179, 100);
+            this.btnRuben.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRuben.Name = "btnRuben";
-            this.btnRuben.Size = new System.Drawing.Size(110, 23);
+            this.btnRuben.Size = new System.Drawing.Size(147, 28);
             this.btnRuben.TabIndex = 2;
             this.btnRuben.Text = "&Ruben - GCD";
             this.btnRuben.UseVisualStyleBackColor = true;
+            this.btnRuben.Click += new System.EventHandler(this.btnRuben_Click);
             // 
             // btnRuan
             // 
-            this.btnRuan.Location = new System.Drawing.Point(251, 42);
+            this.btnRuan.Location = new System.Drawing.Point(335, 52);
+            this.btnRuan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRuan.Name = "btnRuan";
-            this.btnRuan.Size = new System.Drawing.Size(109, 23);
+            this.btnRuan.Size = new System.Drawing.Size(145, 28);
             this.btnRuan.TabIndex = 3;
             this.btnRuan.Text = "R&uan - Min";
             this.btnRuan.UseVisualStyleBackColor = true;
+            this.btnRuan.Click += new System.EventHandler(this.btnRuan_Click);
             // 
             // btnTimothy
             // 
-            this.btnTimothy.Location = new System.Drawing.Point(20, 81);
+            this.btnTimothy.Location = new System.Drawing.Point(27, 100);
+            this.btnTimothy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTimothy.Name = "btnTimothy";
-            this.btnTimothy.Size = new System.Drawing.Size(106, 23);
+            this.btnTimothy.Size = new System.Drawing.Size(141, 28);
             this.btnTimothy.TabIndex = 4;
             this.btnTimothy.Text = "&Timothy - Max";
             this.btnTimothy.UseVisualStyleBackColor = true;
@@ -87,33 +95,37 @@
             // 
             // btnSalman
             // 
-            this.btnSalman.Location = new System.Drawing.Point(251, 81);
+            this.btnSalman.Location = new System.Drawing.Point(335, 100);
+            this.btnSalman.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSalman.Name = "btnSalman";
-            this.btnSalman.Size = new System.Drawing.Size(109, 23);
+            this.btnSalman.Size = new System.Drawing.Size(145, 28);
             this.btnSalman.TabIndex = 5;
             this.btnSalman.Text = "&Salman - Deviation";
             this.btnSalman.UseVisualStyleBackColor = true;
+            this.btnSalman.Click += new System.EventHandler(this.btnSalman_Click);
             // 
             // tbNumber
             // 
-            this.tbNumber.Location = new System.Drawing.Point(139, 16);
+            this.tbNumber.Location = new System.Drawing.Point(185, 20);
+            this.tbNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbNumber.Name = "tbNumber";
-            this.tbNumber.Size = new System.Drawing.Size(110, 20);
+            this.tbNumber.Size = new System.Drawing.Size(145, 22);
             this.tbNumber.TabIndex = 6;
             // 
             // rtbDisplay
             // 
-            this.rtbDisplay.Location = new System.Drawing.Point(78, 110);
+            this.rtbDisplay.Location = new System.Drawing.Point(104, 135);
+            this.rtbDisplay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rtbDisplay.Name = "rtbDisplay";
-            this.rtbDisplay.Size = new System.Drawing.Size(225, 230);
+            this.rtbDisplay.Size = new System.Drawing.Size(299, 282);
             this.rtbDisplay.TabIndex = 7;
             this.rtbDisplay.Text = "";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(378, 346);
+            this.ClientSize = new System.Drawing.Size(504, 426);
             this.Controls.Add(this.rtbDisplay);
             this.Controls.Add(this.tbNumber);
             this.Controls.Add(this.btnSalman);
@@ -122,6 +134,7 @@
             this.Controls.Add(this.btnRuben);
             this.Controls.Add(this.btnLeandri);
             this.Controls.Add(this.btnChristo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "ITRW 324 -Group 17";
             this.ResumeLayout(false);
